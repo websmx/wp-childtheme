@@ -14,7 +14,7 @@ A simple starter child theme for WordPress. Includes some help/notes internally.
 *Typically, the ParentThemeDirectory is the same as the Theme Name... but all lowercase and no spaces. For Example: For "Twenty TwentyTwo", the ParentThemeDirectory is "twentytwentytwo". You can also look in the source code of your website as well. Look for https://yourdomain.com/wp-content/themes/(ParentThemeDirectory)/style.css.*
 
 ## Migrating Customizer Settings
-If you had styles/changes in the Customizer for your theme, you must migrate your Customizer settings to the child theme. The [Customizer Export/Import]https://wordpress.org/plugins/customizer-export-import/ plugin works great for this. 
+If you had styles/changes in the Customizer for your theme, you must migrate your Customizer settings to the child theme. The [Customizer Export/Import](https://wordpress.org/plugins/customizer-export-import/) plugin works great for this. 
 
 ### Exporting Customizer Settings
 1. Install the **Customizer Export/Import** plugin. **Activate** it.
