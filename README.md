@@ -1,7 +1,7 @@
 # wp-childtheme
 A simple starter child theme for WordPress. Includes some help/notes internally.
 
-##To install this child theme
+## To install this child theme
 1. Download and extract the wp-childtheme.zip file.
 2. Edit the ParentThemeDirectory in the style.css file. (see below)
 3. Zip the files back together.
@@ -13,16 +13,16 @@ A simple starter child theme for WordPress. Includes some help/notes internally.
    
 *Typically, the ParentThemeDirectory is the same as the Theme Name... but all lowercase and no spaces. For Example: For "Twenty TwentyTwo", the ParentThemeDirectory is "twentytwentytwo". You can also look in the source code of your website as well. Look for https://yourdomain.com/wp-content/themes/(ParentThemeDirectory)/style.css.*
 
-##Migrating Customizer Settings
+## Migrating Customizer Settings
 If you had styles/changes in the Customizer for your theme, you must migrate your Customizer settings to the child theme. The [Customizer Export/Import]https://wordpress.org/plugins/customizer-export-import/ plugin works great for this. 
 
-###Exporting Customizer Settings
+### Exporting Customizer Settings
 1. Install the **Customizer Export/Import** plugin. **Activate** it.
 2. Navigate to Appearance > Customize and open the Customizer.
 3. In the Customizer, click on **Export/Import** at the bottom of the left side options, under Additional CSS.
 4. Click the **Export** button. This will download a .dat file to your computer
 
-###Importing Customizer Settings
+### Importing Customizer Settings
 1. Navigate to Appearance > Themes and activate the child theme
 2. Navigate to Appearance > Customize and open the Customizer.
 3. In the Customizer, click on **Export/Import** at the bottom of the left side options, under Additional CSS.
