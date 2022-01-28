@@ -18,15 +18,16 @@ If you had styles/changes in the Customizer for your theme, you must migrate you
 
 ### Exporting Customizer Settings
 1. Install the **Customizer Export/Import** plugin. **Activate** it.
-2. Navigate to Appearance > Customize and open the Customizer.
-3. In the Customizer, click on **Export/Import** at the bottom of the left side options, under Additional CSS.
-4. Click the **Export** button. This will download a .dat file to your computer
+2. Make sure the parent theme is active, NOT the new child theme.
+3. Navigate to Appearance > Customize and open the Customizer. (The Customizer settings would apply to the current active theme... the parent theme now.
+4. In the Customizer, click on **Export/Import** at the bottom of the left side options, under Additional CSS.
+5. Click the **Export** button. This will download a .dat file to your computer
 
 ### Importing Customizer Settings
 1. Navigate to Appearance > Themes and activate the child theme
 2. Navigate to Appearance > Customize and open the Customizer.
 3. In the Customizer, click on **Export/Import** at the bottom of the left side options, under Additional CSS.
 4. Click the **Choose File** button, select the .dat file you downloaded and then click **Import**.
-5. You should be good to go!
+5. You should be good to go! You have migrated the parent theme settings into the child theme.
 
 *Please comment if there are any directions that don't make sense or are incorrect.*
