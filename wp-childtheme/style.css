@@ -10,7 +10,7 @@
  * 
  *************
  
-Theme Name: wp-childtheme
+Theme Name: wp-childtheme-studentname
 Template: twentytwentytwo
 
 Theme URI: https://yourdomain.com
@@ -40,6 +40,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 html, body { 
-	font-size: var (--default-font-size); 
-	font-family: var (--default-font)
+	font-size: var(--default-font-size); 
+	font-family: var(--default-font)
 }
